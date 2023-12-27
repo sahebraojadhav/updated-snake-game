@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before *::after{
+    box-sizing: inherit;
+}
+
+h1{
+    font-family:futura;
+    font-size: 800;
+    margin-left: 15%;
+}
+
+h2{
+    font-family:futura;
+    font-size: 1200;
+}
+
+
+
+#ping-pong-table{
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+
+#paddle{
+    background-color: blue;
+    width: 30px;
+    height: 90px;
+    margin-left: 2px;
+    position: absolute;
+    
+}
+
+#football{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
